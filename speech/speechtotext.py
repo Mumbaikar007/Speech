@@ -9,7 +9,7 @@ def stot():
     r = sr.Recognizer()
 
 
-    with sr.Microphone() as source:
+    with sr.Microphone(device_index=12) as source:
         try:
             print("Say it!!")
             audio = r.listen(source)

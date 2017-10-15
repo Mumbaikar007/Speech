@@ -3,7 +3,7 @@ from tkinter import *
 from PIL import Image, ImageTk, ImageFilter
 import random
 
-print ('argv', argv[0], argv[1])
+
 script, infile = argv
 
 class MyApp(object):
